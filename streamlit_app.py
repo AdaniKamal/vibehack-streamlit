@@ -34,7 +34,7 @@ with st.form("add_box"):
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        platform = st.selectbox("Platform", ["Hack The Box", "TryHackMe", "Proving Grounds", "VulnHub", "Other"])
+        platform = st.selectbox("Platform", ["Hack The Box", "TryHackMe", "Proving Grounds", "VulnHub", "HackMyVM", "PwnTillDawn", "Other"])
         box_name = st.text_input("Box Name")
         ip = st.text_input("Target IP")
 
